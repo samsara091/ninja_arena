@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Ninja Battle</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="ninja_arena.css">
+	
+	<script type="text/javascript">
+			$(document).ready(function(){
+    			$("#beach").mouseover(function(){
+    			$(".intro").attr("class",".beach");
+    		});
+    			$("#beach").mouseout(function(){
+    			$(".intro").attr("class","black");
+    		});	
+	)};
+	</script>
+</head>
+<body>
+	<div id="container" class="intro">
+		<div id="graybox">
+			<h1>Select Arena</h1>
+			<button id="beach" type="button">beach</button>
+			<button id="planet" type="button">planet</button>
+			<button id="dojo" type="button">dojo</button>
+			<br>
+			<button id="forest" type="button">forest</button>
+			<button id="matrix" type="button">matrix</button>
+			<button id="snow" type="button">snow</button>
+		</div>
+	<div id="images">
+		<class id="beach">
+			<img src="beach.jpg">
+		</clas>
+		<class id="calvinandhobbes">
+			<img src="calvinandhobbes.jpg">
+		</clas>
+		<class id="dojo">
+			<img src="dojo.jpg">
+		</clas>
+		<class id="forest">
+			<img src="forest.jpg">
+		</clas>
+		<class id="matrix">
+			<img src="matrix.jpg">
+		</clas>
+			<class id="snow">
+		<img src="snow.jpg">
+		</clas>
+	</div>
+</div>
+</body>
+</html>
