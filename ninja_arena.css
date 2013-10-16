@@ -1,0 +1,37 @@
+#graybox{
+	margin: auto;
+	width: 300px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 5px;
+}
+h1{
+	color: orange;
+	text-align: center;
+	font-family: "Arial";
+	padding-top: 10px;
+}
+button{
+	margin-left: 30px;
+}
+
+
+#container{
+	background-color: black;
+	margin: 0 auto;
+	width: 960px;
+	height: 1000px;
+	padding-top: 350px;
+	}
+
+button:hover{
+	border-color: blue;
+}
+
+.intro{
+	background-color: black;
+}
+
+#images{
+	display:none;
+}
